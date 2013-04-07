@@ -1,0 +1,646 @@
+<!doctype html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>  
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    
+    
+	<title>bayualfian.com</title>
+    
+	<meta name="description" content="bayualfian.com is a personal information media of Bayu Alfian" />
+	<meta name="author" content="Bayu Alfian" />
+        
+        <link rel="stylesheet" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Sans+Caption:400,700' rel='stylesheet' type='text/css' />        
+        
+        <!-- SCRIPT IE FIXES -->  
+        <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]--> 
+        <!-- END SCRIPT IE FIXES-->
+      
+      
+        <!-- START TEMPLATE JavaScript load -->
+    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
+        <script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script> 
+             
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBttxrYoBq8srteD7evmDqnaK6V2Uun42o&amp;sensor=true"></script>
+        
+        <script type="text/javascript" src="js/libs/jquery.gmap.min.js"></script>
+        <script type="text/javascript" src="js/greensock/minified/TweenMax.min.js"></script>    
+        <script type="text/javascript" src="js/libs/jquery.timer.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="js/audio-js/jquery.jplayer.min.js"></script>
+        <script type="text/javascript" src="js/audio-js/jplayer.playlist.min.js"></script>
+        <script type="text/javascript" src="js/mediacreed/scrollbar/mc.custom.list.js"></script>
+        <script type="text/javascript" src="js/mc.modules.animation.min.js"></script> 
+        <link rel="stylesheet" href="js/video-js/video-js.min.css" media="screen" />
+        <script type="text/javascript" src="js/video-js/video.min.js"></script>
+        <!-- END TEMPLATE JavaScript load -->
+        
+        <!--<script src="http://vjs.zencdn.net/c/video.js"></script>    
+        Careful when using the online version because the destroy method throws an error.    
+        Our version has the fix on destroy method. Until it updates we recommend using the JS file from the template.    
+        -->
+        <script>
+            _V_.options.flash.swf = "js/video-js/video-js.swf";
+            _V_.options.techOrder = ["html5", "flash", "links"];
+            var params = {};
+            params.bgcolor = "#000000";
+            params.allowFullScreen = "true";       
+            _V_.options.flash.params = params;
+    
+        </script>
+        <script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-23618322-1']);
+	  _gaq.push(['_setDomainName', 'bayualfian.com']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>	
+</head>
+
+<body>
+
+<div class="main-template-loader"></div>
+
+<div id="template-wrapper">
+    <div id="menu-container"><!-- start #menu-container -->        
+        <div class="menu-content-holder"><!-- start .menu-content-holder -->
+            <div class="menu-background"></div>
+            <div id="template-logo" class="template-logo" data-href="#portfolio.html"></div> 
+            <div id="template-menu" class="template-menu" data-current-module-type="full_width_gallery" data-side="none" data-href="#portfolio.html"><!-- start #template-menu -->
+                <div class="menu-option-holder" data-module-type="full_width_gallery" data-side="none">
+                    <div class="menu-option-background"> </div>
+                    <div  class="menu-option-text"><a href="#portfolio.html" data-path-href="html/portfolio/">PORTFOLIO</a></div>
+                </div>
+				<div class="menu-option-holder" data-module-type="text_page" data-side="none">
+                    <div class="menu-option-background"> </div>
+                    <div  class="menu-option-text"><a href="#about_us.html" data-path-href="html/about_us/">AUTOBIO</a></div>
+                </div>
+                <div class="menu-option-holder" data-module-type="external" data-side="height">
+                    <div class="menu-option-background"> </div>
+                    <div  class="menu-option-text"><a href="http://jurnalmikro.bayualfian.com/" data-path-href="">JURNAL MIKRO</a></div>
+                </div>				
+                <div class="menu-option-holder" data-module-type="news" data-side="height">
+                    <div class="menu-option-background"> </div>
+                    <div  class="menu-option-text"><a href="#news.html" data-path-href="html/news/">NEWS</a></div>
+                </div>                                                 
+                <div class="menu-option-holder">
+                    <div class="menu-option-background"> </div>
+                    <div  class="menu-option-text"><a href="#">GALLERIES</a><div class="menu-option-sign">+</div></div>
+                    <div class="sub-menu-holder">
+                        <div class="sub-menu-option-holder" data-module-type="gallery" data-side="none">
+                            <div class="sub-menu-option-background"></div>
+                            <div class="sub-menu-option-text"><a href="#image_gallery.html" data-path-href="html/galleries/">Image Gallery</a></div>
+                        </div>
+                        <div class="sub-menu-option-holder" data-module-type="gallery" data-side="none">
+                            <div class="sub-menu-option-background"> </div>
+                            <div class="sub-menu-option-text"><a href="#mixed_gallery.html" data-path-href="html/galleries/">Video Gallery</a></div>
+                        </div>                        
+                    </div>
+                </div>                                
+                <div class="menu-option-holder" data-module-type="contact" data-side="custom">
+                    <div class="menu-option-background"> </div>
+                    <div  class="menu-option-text"><a href="#contact.html" data-path-href="html/contact/">CONTACT</a></div>
+                </div>            
+            </div><!-- end #template-menu -->  
+            <div id="template-smpartphone-menu">
+                <select>
+                    <option value="#">Navigate to...</option>
+                    <option value="#portfolio.html"> PORTFOLIO</option>                    
+                    <option value="#about_us.html">  AUTOBIO</option>
+                    <option value="http://jurnalmikro.bayualfian.com/"> JURNAL MIKRO</option>                        
+                    <option value="#news.html"> NEWS</option>
+                    <option value="#"> GALLERIES +</option>
+                        <option value="#image_gallery.html">  - Image Gallery</option>
+                        <option value="#mixed_gallery.html">  - Video Gallery</option>                      
+                    <option value="#contact.html"> CONTACT</option>
+                </select>
+            </div>
+			<div id="audio-player" data-auto-play="true" data-player-opened="true" data-player-volume="0.6">
+                <div id="audio-items">
+                <div id="audio-track" data-src="assets/audio/iluminati" data-title="Anonymous - Iluminati"></div>                                                           
+                </div>
+                <div id="audio-player-tooltip" class="opacity_0">
+                    <div id="audio-tooltip-holder">
+                        <div class="audio-tooltip-backg"></div>
+                        <div class="audio-player-tooltip-title"><span></span></div>
+                    </div>
+                    <div class="audio-player-tooltip-hook"></div>                    
+                </div>
+                <div id="audio-player-holder">
+                    <div id="audio-options-button">
+                        <div class="audio-options-button-backg"></div>
+                        <div class="audio-options-button-sign"></div>
+                    </div>
+                    <div id="audio-player-options-holder">                    
+                        <div id="audio-prev-track">
+                            <div class="audio-controls-backg"></div>
+                            <div class="audio-prev-track-sign"></div>
+                        </div>
+                        <div id="audio-play-pause-track">
+                            <div class="audio-controls-backg"></div>
+                            <div class="audio-play-track-sign"></div>
+                            <div class="audio-pause-track-sign"></div>
+                        </div>
+                        <div id="audio-next-track">
+                            <div class="audio-controls-backg"></div>
+                            <div class="audio-next-track-sign"></div>
+                        </div>
+                        <div id="audio-volume-speaker">
+                            <div class="audio-controls-backg"></div>
+                            <div class="audio-volume-on-sign"></div>
+                            <div class="audio-volume-off-sign"></div>
+                        </div>
+                        <div id="audio-volume-bar">
+                            <div class="audio-volume-bar-scrub-backg"></div>
+                            <div class="audio-volume-bar-scrub-current"></div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+            <footer>    
+                <div id="footer-social">            
+                    <div id="footer-social-holder">
+                        <ul>
+                            <li class="twitter"><a href="http://www.twitter.com/bayualfian_kif/" target="_blank"></a></li>
+                            <li class="facebook"><a href="http://www.facebook.com/bayualfian.kartoenbitjara/" target="_blank"></a></li>
+                            <li class="google"><a href="http://plus.google.com/111009359982233308826/posts/" target="_blank"></a></li>
+                            <li class="dribbble"><a href="http://www.dribbble.com/bayualfian/" target="_blank"></a></li>
+                            <li class="flickr"><a href="http://www.flickr.com/people/55697317@N02/" target="_blank"></a></li>
+                        </ul>
+                    </div>                   
+                </div>    
+                <div id="footer-text"><!-- start #footer-text -->
+                    <div id="footer-copyright"><a href="#">&copy;2012-2015 BAYUALFIAN.COM</a></div>           
+                </div><!-- end #footer -->    
+            </footer> 
+        </div><!-- end .menu-content-holder-->
+        
+        <div id="menu-hider">
+            <div id="menu-hider-background"></div>
+            <div id="menu-hider-icon"></div>
+        </div>
+    </div><!-- end #menu-container -->
+    
+    <div id="module-container"><!-- start #module-container -->
+        <div id="module-background-holder">   
+            <div id="module-background-solid1" class="opacity_0"></div>     
+        </div>
+        <div id="module-container-holder" class="module-position-lc"  data-id="module-position-lc">
+            <div id="module-full-width-gallery"  class="module-full-width-gallery " > <!-- .shadow-side-all-->
+                <div id="module-full-width-holder">
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb1.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Festival Sinema Prancis</p></div>
+                        </div>               
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb2.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Piknik Project</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb3.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>info.or.id</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb4.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>KIFinfo App (Facebook)</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb5.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Plazabet.com</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb6.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>EUGEN, inc.</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb7.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Blue Horizon Tour</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb8.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>National Internship 2012</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb9.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Presentation: 10 Tactics for Turning Information into Action</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb10.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Memantau dari Udara</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb11.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Disaster Mitigation of Merapi Mountain</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb12.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Jalan Remaja 1208</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb13.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Bagabaga Shop</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb14.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>KIFoundation</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb15.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Cellsbutton #05</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb16.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>OK Video Comedy</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb17.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Jagakali Art Festival</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb-video1.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="play-gallery"></div>
+                            <div class="item-title"><p>Kita Bicara</p></div>
+                        </div>                   
+                    </div>
+                    <div class="full-width-item">
+                    	<img src="assets/media/portfolio/thumbs/thumb18.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+                        <div id="thumb-image-hover" class="hover-default">
+                            <div class="background opacity_6"></div>
+                            <div class="zoom-gallery"></div>
+                            <div class="item-title"><p>Akumassa</p></div>
+                        </div>                   
+                    </div>                    
+                </div>             
+            </div>
+            
+        </div>
+        <div id="module-scrollbar-holder_v2">
+            <div id="module-scrollbar-background" class="opacity_8"></div>
+            <div id="module-scrollbar-dragger"></div>
+        </div>	
+        
+        <div id="full-width-preview"><!-- start .full-width-preview" -->
+            <div class="full-width-preview-background opacity_9_7"></div>
+            <div id="full-width-preview-media-holder">
+                <div class="full-width-preview-media-holder-background opacity_0"></div>
+                <div class="full-width-preview-media-loader"></div>
+                <div id="preview-media-holder">           
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image1.png" data-title="Custom Title 1" data-alt="Custom Alt 1"></div>                    
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image2.jpg" data-title="Custom Title 2" data-alt="Custom Alt 2"></div>                                        
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image3.jpg" data-title="Custom Title 3" data-alt="Custom Alt 3"></div>                    
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image4.jpg" data-title="Custom Title 4" data-alt="Custom Alt 4"></div>                    
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image5.jpg" data-title="Custom Title 5" data-alt="Custom Alt 5"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image6.jpg" data-title="Custom Title 6" data-alt="Custom Alt 6"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image7.jpg" data-title="Custom Title 7" data-alt="Custom Alt 7"></div>                    
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image8.jpg" data-title="Custom Title 8" data-alt="Custom Alt 8"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image9.jpg" data-title="Custom Title 9" data-alt="Custom Alt 9"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image10.png" data-title="Custom Title 10" data-alt="Custom Alt 10"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image11.png" data-title="Custom Title 11" data-alt="Custom Alt 11"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image12.jpg" data-title="Custom Title 12" data-alt="Custom Alt 12"></div>                     
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image13.jpg" data-title="Custom Title 13" data-alt="Custom Alt 13"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image14.jpg" data-title="Custom Title 14" data-alt="Custom Alt 14"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image15.jpg" data-title="Custom Title 15" data-alt="Custom Alt 15"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image16.jpg" data-title="Custom Title 16" data-alt="Custom Alt 16"></div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image17.jpg" data-title="Custom Title 17" data-alt="Custom Alt 17"></div>
+					<div id="video-wrapper" data-video-type="vimeo" data-width="640" data-height="390"
+                          data-url="http://player.vimeo.com/video/29527364?portrait=0&color=ffffff">
+                    </div>
+                    <div id="preview-media-image" data-url="assets/media/portfolio/images/image18.jpg" data-title="Custom Title 18" data-alt="Custom Alt 18"></div>
+                    
+                </div>            
+            </div>
+            <div class="preview-arrow-close">
+                <div class="preview-arrow-backg opacity_2"></div>
+                <div class="preview-arrow-close-sign"></div>
+            </div>
+            <div class="preview-arrow-backward">
+                <div class="preview-arrow-backg opacity_2"></div>
+                <div class="preview-arrow-backward-sign"></div>
+            </div>
+            <div class="preview-arrow-forward">
+                <div class="preview-arrow-backg opacity_2"></div>
+                <div class="preview-arrow-forward-sign"></div>
+            </div>                
+            <div id="full-width-preview-info-holder" class="module-position-rc">
+                <div id="full-width-info-container" class="full-width-info-container shadow-side-left">
+                    <div class="full-width-info-holder">
+                        <div class="full-width-info-holder-desc">
+                            <p>Festival Sinema Prancis</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</br></p>
+								Program: Panorama & Kompetisi Film Pendek Nasional</br>
+								Category: Sinema</br>
+								Organization: Institut Prancis di Indonesia</br>
+								Year: 2012</br>
+								Involvement: Entry & Database</br>
+								Reference(s): www.institutfrancais-indonesia.com</span>                            
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Piknik Project</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Publication (Web)</br>
+								Category: Website Interface (WordPress Theme)</br>
+								Client: Piknik Project (Cirebon, Indonesia)</br>
+								Year: 2012</br>
+								Specialization: Photoshop, Notepad++</br>
+								Reference(s): www.piknikproject.com</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>info.or.id</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Publication (Web)</br>
+								Category: News Web</br>
+								Client: KIFoundation (Kartoenbitjara Indonesia ), Cirebon</br>
+								Year: 2012</br>
+								Specialization: WordPress (CMS)</br>
+								Reference(s): www.info.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>KIFinfo App (Facebook)</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: KIFinfo [info.or.id]</br>
+								Category: Facebook App</br>
+								Client: KIFoundation (Kartoenbitjara Indonesia), Indonesia</br>
+								Year: 2012</br>
+								Specialization: Facebook, Notepad++, Social Media</br>
+								Reference(s): apps.facebook.com/info-or-id atau Repo di GitHub: github.com/KIFapplab/KIFinfo</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Plazabet.com</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Publication (Web)</br>
+								Category: Website Interface (WordPress Theme)</br>
+								Client: Plazabet.com (Indonesia)</br>
+								Year: 2012</br>
+								Specialization: Photoshop, Dreamweaver, Notepad++</br>
+								Reference(s): www.plazabet.com</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>EUGEN, inc.</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Print Publication</br>
+								Category: Identity</br>
+								Client: EUGEN, inc.</br>
+								Year: 2012</br>
+								Specialization: CorelDraw (Vector)</br>
+								Reference(s): -</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Blue Horizon Tour</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Publication (Web)</br>
+								Category: Website Interface</br>
+								Client: PT. Blue Horizon, Jambi, Sumatera, Indonesia</br>
+								Year: 2012</br>
+								Specialization: Photoshop, Dreamweaver, Notepad++</br>
+								Reference(s): www.bluehorizontour.com</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>National Internship 2012</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Program: National Internship 2012</br>
+								Category: Culture and Art</br>
+								Organization: Kelola Foundation</br>
+								Year: 2012</br>
+								Involvement: Grant Recipient</br>
+								Venue: Institut Francais d’Indonesie, Jakarta</br>
+								Reference(s): www.kelola.or.id/news/detail?id=279</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Presentation: 10 Tactics for Turning Information into Action</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Program: 10 Tactics for Turning Information into Action</br>
+								Category: Presentation</br>
+								Organization(s): Tactical Technology Collective, World | KIFoundation (Kartoenbitjara Indonesia), Indonesia</br>
+								Year: 2011</br>
+								Venue: Cirebon</br>
+								Involvement: Speaker</br>
+								Reference(s): www.tacticaltech.org |</br>
+								www.kartoenbitjara.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Memantau dari Udara</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Offline Publication (Web)</br>
+								Category: DVD</br>
+								Client(s): COMBINE Resource Institution, Yogyakarta | Ministry of Information and Communications, Indonesia</br>
+								Year: 2011</br>
+								Specialization: Vector, CorelDraw, Photoshop</br>
+								Reference(s): www.combine.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Disaster Mitigation of Merapi Mountain</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Offline Publication (Web)</br>
+								Category: DVD</br>
+								Client(s): INSIST Network, Yogyakarta</br>
+								Year: 2011</br>
+								Specialization: Vector, CorelDraw, Photoshop</br>
+								Reference(s): www.insist.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Jalan Remaja 1208</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Publication (Web)</br>
+								Category: Web Design</br>
+								Client: Kampung Halaman Foundation, Yogyakarta</br>
+								Year: 2011</br>
+								Specialization: Blueprint Framework, Photoshop</br>
+								Reference(s): www.jalanremaja1208.org</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Bagabaga Shop</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Store (Web)</br>
+								Category: E-Commerce</br>
+								Client: Bagabaga Shop, Yogyakarta</br>
+								Year: 2011</br>
+								Specialization: WordPress (CMS), WP-ecommerce</br>
+								Reference(s): www.bagabagashop.com</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>KIFoundation</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Project: Online Publication (Web)</br>
+								Category: Institutional Web</br>
+								Client: KIFoundation (Kartoenbitjara Indonesia), Cirebon</br>
+								Year: 2011</br>
+								Specialization: WordPress (CMS)</br>
+								Reference(s): www.kartoenbitjara.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Cellsbutton #05 - Yogyakarta International Media Art Festival</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Program: Presentation, Yogyakarta International Media Art Festival</br>
+								Category: Media Art</br>
+								Host: House of Natural Fiber [HONF], Yogyakarta</br>
+								Year: 2011</br>
+								Involvement: Institutional Cells Participant</br>
+								Institutional: KIFoundation (Kartoenbitjara Indonesia)</br>
+								Reference(s): www.natural-fiber.com/cellsbutton | www.kartoenbitjara.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>OK Video Comedy</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Program: Video Screening & DVD Compilation</br>
+								Category: Media Art</br>
+								Host: Ruangrupa, Jakarta</br>
+								Year: 2009</br>
+								Involvement: Selected Video</br>
+								Institutional: KIFoundation (Kartoenbitjara Indonesia)</br>
+								Reference(s): www.natural-fiber.com/cellsbutton | www.kartoenbitjara.or.id</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Jagakali Art Festival</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Program: Workshop, Presentations, & Performances</br>
+								Category: Art</br>
+								Organization: Gardu Unik, Cirebon</br>
+								Year: 2009-2010</br>
+								Involvement: Festival Director</br>
+								Reference(s): Gardu Unik Community</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Kita Bicara</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								English title: We're Talk</br>
+								Duration: 12 minutes 49 seconds</br>
+								Realization: Bayu Alfian</br>
+								Year: 2009</br>
+								First Screen: OK Video Comedy, Galeri Nasional Jakarta, 2009</br>
+								Published: DVD compilation by Ruangrupa, Jakarta</br>
+								Category: Documentary</br>
+								Production: KIFoundation (Kartoenbitjara Indonesia)</span>
+                        </div>
+                        <div class="full-width-info-holder-desc">
+                            <p>Akumassa</p>
+                            <div class="custom-separator"></div>
+                            <span><p>Detail.</p></br>
+								Program: Akumassa</br>
+								Category: Journalism</br>
+								Organization: Forum Lenteng, Jakarta</br>
+								Year: 2008-2010</br>
+								Involvement: Site Editor</br>
+								Reference(s): www.akumassa.org</span>
+                        </div>                                              
+                    </div>
+                </div>        
+            </div>        
+        </div><!-- end .full-width-preview" -->
+    </div><!-- end #module-container -->
+</div>
+
+<!-- START LOADING CONTAINER AND ANIMATION-->
+<div id="load-container"></div>
+<div id="loading-animation">
+	<img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
+</div>
+<!-- END LOADING CONTAINER AND ANIMATION--> 
+    
+</body>
+</html>
